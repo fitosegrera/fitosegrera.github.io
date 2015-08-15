@@ -2,12 +2,40 @@
   <h1>{{ page.title }} <small>Supporting tagline</small></h1>
 </div>
 
+<<<<<<< HEAD:_includes/themes/twitter/post.html
 <div class="row">
   <div class="span10">
     {{ content }}
+=======
+<div class="row post-full">
+  <div class="col-md-12">
+    <div class="date">
+      <span>{{ page.date | date_to_long_string }}</span>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+
+    {% unless page.categories == empty %}
+      <ul class="tag_box inline">
+        <li><i class="icon-folder-open"></i></li>
+        {% assign categories_list = page.categories %}
+        {% include JB/categories_list %}
+      </ul>
+    {% endunless %}
+
+    {% unless page.tags == empty %}
+      <ul class="tag_box inline">
+        <li><i class="icon-tags"></i></li>
+        {% assign tags_list = page.tags %}
+        {% include JB/tags_list %}
+      </ul>
+    {% endunless %}
+
+>>>>>>> 3fbcd5727971106b58697734f1a671297bdb062b:_includes/themes/bootstrap/post.html
     <hr>
-    <div class="pagination">
-      <ul>
+    
+    <ul class="pagination">
       {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
       {% else %}
@@ -19,8 +47,7 @@
       {% else %}
         <li class="next disabled"><a>Next &rarr;</a>
       {% endif %}
-      </ul>
-    </div>
+    </ul>
     <hr>
     {% include JB/comments %}
   </div>

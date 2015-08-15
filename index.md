@@ -17,7 +17,23 @@ Research/creation (RC) is a field of knowledge-based-production emerging from th
 
 **3. Intelligent Audio-visual Systems:** Augmented and virtual reality, mobile technology and/or custom hardware to explore non-linear, experimental narratives in cinema, T.V, mobile devices and other media. Autonomous audiovisual and/or music systems that make use of participatory dynamics, in both physical and virtual spaces and explore the use of the large-scale, 360 degree projection system located at CAC.
 
+<<<<<<< HEAD
 **4. Existential Technologies:** This line of research explores the use of wearable technology, robotics, interactive media and physical computing in order to examine fundamental ontological questions regarding the nature of reality and human perception; synesthesia, sensory substitution, sensory augmentation, etc.
+=======
+    $ rm -rf _posts/core-samples
+
+Here's a sample "posts list".
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+## To-Do
+
+This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/dbtek/jekyll-bootstrap-3)!
+>>>>>>> 3fbcd5727971106b58697734f1a671297bdb062b
 
 **5. It from bit:** Aesthetic objects that examine the ideas of simulation and representation through the hybridization of digital and physical forms. The transmutation of bits into atoms and vice-versa becomes the exploration of new forms of art in the field of mixed and mediated reality through physical computing, VR and AR.
 
