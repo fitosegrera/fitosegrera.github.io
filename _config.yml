@@ -11,13 +11,8 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-<<<<<<< HEAD
 title : CAC_Lab
 tagline: Research/creation
-=======
-title : Jekyll Bootstrap-3
-tagline: Site Tagline
->>>>>>> 3fbcd5727971106b58697734f1a671297bdb062b
 author :
   name : fito_segrera
   email : fito@chronusartcenter.org
