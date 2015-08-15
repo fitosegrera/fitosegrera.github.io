@@ -95,31 +95,24 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
-<<<<<<< HEAD
     duoshuo :
       short_name : jekyllbootstrap
-   
-=======
 
->>>>>>> 3fbcd5727971106b58697734f1a671297bdb062b
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
     provider : google
-<<<<<<< HEAD
     gauges :
         site_id : 'SITE ID'
     google : 
         tracking_id : 'UA-123-12'
-=======
     google :
         tracking_id : 'UA-***'
     googleUA :
         tracking_id : 'UA-***'
         property_name : 'PROPERTY NAME'
->>>>>>> 3fbcd5727971106b58697734f1a671297bdb062b
     getclicky :
       site_id : 
     mixpanel :
